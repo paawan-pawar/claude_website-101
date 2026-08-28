@@ -89,7 +89,7 @@ const Footer = () => {
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
-                  href="#"
+                  href="/"
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors duration-200"
                   aria-label={social.name}
                 >
